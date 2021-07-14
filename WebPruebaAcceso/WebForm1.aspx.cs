@@ -236,5 +236,24 @@ namespace WebPruebaAcceso {
 
             }
         }
+
+        protected void btnConsultaProd_Click(object sender, EventArgs e)
+        {
+            string query = "select * from PRODUCTOS";
+            DataSet caja = null;
+            string h = "";
+            caja = objAcceso.ConsultaDS(query, objAcceso.AbrirConexion(ref h), ref h);
+
+            if (caja != null)
+            {
+                GridView3.DataSource = caja.Tables[0];
+                GridView3.DataBind();
+            }
+            else
+            {
+                Page.ClientScript.RegisterStartupScript(
+                    GetType(), "messg77", "msgbox3(`Incorrecto`,`" + h + "`,`error`)", true);
+            }
+        }
     }
 }

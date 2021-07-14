@@ -7,11 +7,13 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace WebPruebaAcceso {
-    
-    
-    public partial class WebForm1 {
-        
+namespace WebPruebaAcceso
+{
+
+
+    public partial class WebForm1
+    {
+
         /// <summary>
         /// Control form1.
         /// </summary>
@@ -20,7 +22,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// Control TextBox1.
         /// </summary>
@@ -29,7 +31,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
+
         /// <summary>
         /// Control Button1.
         /// </summary>
@@ -38,7 +40,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
+
         /// <summary>
         /// Control TextBox2.
         /// </summary>
@@ -47,7 +49,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
-        
+
         /// <summary>
         /// Control btnConsultaDataReader.
         /// </summary>
@@ -56,7 +58,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnConsultaDataReader;
-        
+
         /// <summary>
         /// Control ListBox1.
         /// </summary>
@@ -65,7 +67,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox ListBox1;
-        
+
         /// <summary>
         /// Control btnConsultaDataSet.
         /// </summary>
@@ -74,7 +76,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnConsultaDataSet;
-        
+
         /// <summary>
         /// Control GridView1.
         /// </summary>
@@ -83,7 +85,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView1;
-        
+
         /// <summary>
         /// Control btnDatosDataSet.
         /// </summary>
@@ -92,7 +94,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDatosDataSet;
-        
+
         /// <summary>
         /// Control GridView2.
         /// </summary>
@@ -101,7 +103,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView2;
-        
+
         /// <summary>
         /// Control Button2.
         /// </summary>
@@ -110,7 +112,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button2;
-        
+
         /// <summary>
         /// Control txbID.
         /// </summary>
@@ -119,7 +121,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txbID;
-        
+
         /// <summary>
         /// Control txbNombre.
         /// </summary>
@@ -128,7 +130,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txbNombre;
-        
+
         /// <summary>
         /// Control Button3.
         /// </summary>
@@ -137,7 +139,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
-        
+
         /// <summary>
         /// Control Label1.
         /// </summary>
@@ -146,7 +148,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-        
+
         /// <summary>
         /// Control txbIdprod.
         /// </summary>
@@ -155,7 +157,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txbIdprod;
-        
+
         /// <summary>
         /// Control Label2.
         /// </summary>
@@ -164,7 +166,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
-        
+
         /// <summary>
         /// Control txbDescProd.
         /// </summary>
@@ -173,7 +175,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txbDescProd;
-        
+
         /// <summary>
         /// Control Label3.
         /// </summary>
@@ -182,7 +184,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label3;
-        
+
         /// <summary>
         /// Control txbCategoProd.
         /// </summary>
@@ -191,7 +193,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txbCategoProd;
-        
+
         /// <summary>
         /// Control Label4.
         /// </summary>
@@ -200,7 +202,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label4;
-        
+
         /// <summary>
         /// Control txbPrecProd.
         /// </summary>
@@ -209,7 +211,7 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txbPrecProd;
-        
+
         /// <summary>
         /// Control btnProd.
         /// </summary>
@@ -218,5 +220,23 @@ namespace WebPruebaAcceso {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnProd;
+
+        /// <summary>
+        /// Control btnConsultaProd.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnConsultaProd;
+
+        /// <summary>
+        /// Control GridView3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView3;
     }
 }

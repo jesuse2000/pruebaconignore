@@ -50,7 +50,7 @@
             <br />
             <asp:TextBox ID="txbNombre" runat="server"></asp:TextBox>
             <br />
-            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Insertr empleado" />
             <br />
             <br />
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
@@ -69,7 +69,19 @@
             <asp:TextBox ID="txbPrecProd" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="btnProd" runat="server" OnClick="btnProd_Click" Text="Button" />
+            <asp:Button ID="btnProd" runat="server" OnClick="btnProd_Click" Text="Insertar Producto" />
+            <br />
+            <br />
+            <asp:Button ID="btnConsultaProd" runat="server" OnClick="btnConsultaProd_Click" Text="Consulta de Productos" />
+            <br />
+            <br />
+            <asp:GridView ID="GridView3" runat="server">
+            </asp:GridView>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
         </div>
