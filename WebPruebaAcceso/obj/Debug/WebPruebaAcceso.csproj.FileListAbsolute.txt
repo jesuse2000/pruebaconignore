@@ -112,3 +112,15 @@ D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\obj\Debug\WebPruebaAcc
 D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\obj\Debug\WebPruebaAcceso.csproj.CopyComplete
 D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\obj\Debug\WebPruebaAcceso.dll
 D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\obj\Debug\WebPruebaAcceso.pdb
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\MySql.Data.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\Google.Protobuf.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\Zstandard.Net.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\K4os.Compression.LZ4.Streams.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\BouncyCastle.Crypto.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\Ubiety.Dns.Core.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\System.Memory.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\System.Buffers.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\K4os.Compression.LZ4.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\K4os.Hash.xxHash.dll
+D:\PRUEBASRAMAS\PRUEBAGit\WebPruebaAcceso\WebPruebaAcceso\bin\MySql.Data.xml
