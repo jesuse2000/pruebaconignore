@@ -255,5 +255,52 @@ namespace WebPruebaAcceso {
                     GetType(), "messg77", "msgbox3(`Incorrecto`,`" + h + "`,`error`)", true);
             }
         }
+
+        protected void btnMdDS_Click(object sender, EventArgs e)
+        {
+            DataSet temporal = Session["Tabla1"] as DataSet;
+            DataTable tabla = temporal.Tables[0];
+            DataRow ractual = null;
+            int r = 0;
+
+            for (r = 0; r <= tabla.Rows.Count - 1; r++)
+            {
+                ractual = tabla.Rows[r];
+                if (ractual["ID_EMPLEADO"].ToString() == txbIdBus.Text)
+                {
+                    ractual["NOMBRE"] = txbNomM.Text;
+                }
+
+            }
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            string sentencia = "Insert into empleado values(" +
+                txbID.Text + ",'" + txbNombre.Text + "');";
+            SqlConnection t = null;
+            string m = "";
+            Boolean resp = false;
+            t = objAcceso.AbrirConexion(ref m);
+            resp = objAcceso.ModificaBDInsegura(sentencia, t, ref m);
+            if (resp)
+            {
+                Page.ClientScript.RegisterStartupScript(this.GetType(),
+                    "messg3B5", "msgbox3('Correcto','" + m + " ','success');",
+                    true);
+            }
+            else
+            {
+                Page.ClientScript.RegisterStartupScript(this.GetType(),
+                   "messg885", "msgbox3(`Peligro`,`" + m + "`,`error`);",
+                   true);
+            }
+            TextBox2.Text = sentencia;
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx");
+        }
     }
 }
